@@ -1,11 +1,14 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  color: #ade8f4;
+  padding: 1rem;
   text-align: center;
 }
 
 .App {
+  overflow: hidden;
+  max-width: 20rem;
+  min-height: 30rem;
+  background-color: #2b2d42;
   border: thin solid black;
   border-radius: 2rem;
   display: flex;
@@ -13,6 +16,12 @@
   justify-content: space-between;
   padding: 2rem;
   margin: auto;
-  width: 20rem;
-  height: 30rem;
+}
+
+button {
+  background-color: #ade8f4;
+  border-radius: 1rem;
+  width: 5rem;
+  padding: 0.5rem;
+  border: thin solid black;
 }
